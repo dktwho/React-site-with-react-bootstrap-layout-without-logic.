@@ -2,12 +2,21 @@
 
 import React from 'react'
 import { Navbar,  Container, Nav, FormControl, Form, Button } from 'react-bootstrap'
+import { BrowserRouter , Routes, Route, Link } from "react-router-dom";
+import Home from '../Pages/Home';
+import About from '../Pages/About';
+import Contacts from '../Pages/Contacts';
+import Blog from '../Pages/Blog';
+
+
+
+
 import logo from './logo192.png'
 
 const Header = () => {
   return (
       <>
-      <Navbar fixed="top" collapseOnSelect expend="md" bg="dark" variant="dark">
+      <Navbar sticky="top" collapseOnSelect expend="md" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href='/'>
             <img 
@@ -33,6 +42,16 @@ const Header = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />}/>
+            <Route path="/about" element={<About />}/>
+            <Route path="/contacts" element={<Contacts />}/>
+            <Route path="/blog" element={<Blog />}/>
+          </Routes>
+        </BrowserRouter>
+      
     </>
 
   )
