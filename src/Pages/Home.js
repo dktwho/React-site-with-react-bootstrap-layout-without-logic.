@@ -1,8 +1,9 @@
 import React from 'react'
+import CarouselBox from '../Components/CarouselBox'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <CarouselBox/>
   )
 }
 
