@@ -17,7 +17,7 @@ const CarouselBox = () => {
           height='920'
         />
         <Carousel.Caption>
-          <h3>Sea image</h3>
+          <h3>Forest image</h3>
           <p>Lorem ipsum</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -30,7 +30,7 @@ const CarouselBox = () => {
           height='920'
         />
         <Carousel.Caption>
-          <h3>Sea image</h3>
+          <h3>Forest image</h3>
           <p>Lorem ipsum</p>
         </Carousel.Caption>
       </Carousel.Item>
