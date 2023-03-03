@@ -1,3 +1,13 @@
+# Содержание
+
+Пример сайта на React с версткой react-bootstrap без логики.
+
+1. Компонент Header с роутингом.
+2. Страница Home с каруселью и ниже описание комманды в ввиде карточек.
+3. Страница About as c tabs.
+4. Страница Contacts с формой для обратной связи с textarea и checkbox.
+5. Страница Blog с выводом тескта в ввиде постов и leftside ListGroup
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
