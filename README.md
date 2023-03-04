@@ -6,7 +6,7 @@
 2. Страница Home с каруселью и ниже описание комманды в ввиде карточек.
 3. Страница About as c tabs.
 4. Страница Contacts с формой для обратной связи с textarea и checkbox.
-5. Страница Blog с выводом тескта в ввиде постов и leftside ListGroup
+5. Страница Blog с выводом текста в виде постов и leftside ListGroup
 
 # Getting Started with Create React App
 
